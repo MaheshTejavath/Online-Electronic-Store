@@ -1,0 +1,56 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, rgb(0, 255, 255), rgb(0, 0, 64));
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center container */
+.main-container {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 90%;
+}
+
+/* Styling for h1 */
+.scrolling-header {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Links styled as buttons */
+.button {
+    display: inline-block;
+    background-color: #0288d1;
+    color: rgb(255, 255, 0);
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #01579b;
+    transform: scale(1.05);
+    color: yellow;
+}
+
+/* Marquee adjustments */
+marquee {
+	text-decoration-color: darkgoldenrod;
+    font-style: italic;
+    color: #004ba0;
+}
